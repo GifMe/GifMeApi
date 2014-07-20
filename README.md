@@ -21,7 +21,8 @@ The search API is powered by the same engine and alogrithm that powers the GifMe
 <ul>
 	<li><b>query</b> - The term you are searching for </li>
 	<li><b>limit</b> - The number of results to serve up. Max 42</li>
-	<li><b>page</b> - The page of results you want.</li>
+	<li><b>page</b> - The page of results you want</li>
+	<li><b>sfw</b> - true or false, will filter NSFW Gifs</li>
 	<li><b>key</b> - Your API key</li>
 </ul>
 
