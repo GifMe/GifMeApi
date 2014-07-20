@@ -4,7 +4,7 @@ GifMeApi
 GifMe is an app that makes saving, sharing and organizing gifs easier. It is also home to one of the largest gif search engines. GifMe has an API that allows 3rd party developers to use the data and tap into the gifs and images collected by GifMe users.
 
 ## Basics
-The API is a read only api. You can query a number of endpoints and get data from those. Below is the documentation on how to use it.
+The API is a read only api. You can query a number of endpoints and get data from those. Below is the documentation on how to use it. You can query these enpoints as basic GET requests.
 
 ## API KEY
 For the time being you are free to use the following key. Please note that any abuse of this key will result in a change of policy. We are working to setup a dev center where you can register to get a key for your app.
@@ -98,4 +98,60 @@ From the results you will see the following:
 ## Stream
 The stream is a real time stream of Gifs and tags that are saved into GifMe. 
 
-<b>Endpoint</b>: ``
+<b>Endpoint</b>: `http://api.gifme.io/v1/stream?key=rX7kbMzkGu7WJwvG`
+
+The results of this query will look something like this:
+
+<pre>
+{
+	status: 200,
+	meta: {
+		timing: "0.521ms"
+	},
+	data: [
+		{
+			id: 481585,
+			created_at: "2014-07-20T03:54:10.844Z",
+			thumb: "http://i.gifme.io/gifme/thumb__6b3c891d38.gif",
+			link: "http://i.imgur.com/fB19z.gif",
+			nsfw: false,
+			tags: [
+				"over your head"
+			]
+		},
+		{
+			id: 481584,
+			created_at: "2014-07-20T03:53:48.245Z",
+			thumb: "http://i.gifme.io/gifme/thumb__1c019b1953.gif",
+			link: "https://31.media.tumblr.com/7ac1def41e60d8c1c75c9a1638a1a4ec/tumblr_n8vnk0tD4V1s95j2so5_250.gif",
+			nsfw: false,
+			tags: [
+				"but we arnt men"
+			]
+		}
+	]
+}
+</pre>
+
+Similar to the search return. Note that the tags are returned as a string and not broken up.
+
+<ul>
+	<li><b>Status</b>: The server status</li>
+	<li><b>Meta</b>
+		<ul>
+			<li><b>timing</b>: Time it took to process in ms.</li>
+		</ul>
+	</li>
+	<li><b>Data</b>
+		<ul>
+			<li><b>id</b>: Gif ID</li>
+			<li><b>nsfw</b>: If the result is NSFW</li>
+			<li><b>link</b>: The original source</li>
+			<li><b>thumb</b>: The static thumbnail</li>
+			<li><b>created_at</b>: Creation date</li>
+			<li><b>Tags</b>: The other tags associated with this Gif</li>
+		</ul>
+	</li>
+</ul>
+
+There are more enpoints on the way and we will be publishing them here as well as more documentation on the site.
