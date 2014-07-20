@@ -9,6 +9,8 @@ The API is a read only api. You can query a number of endpoints and get data fro
 ## API KEY
 For the time being you are free to use the following key. Please note that any abuse of this key will result in a change of policy. We are working to setup a dev center where you can register to get a key for your app.
 
+If you plan to use the API in a production application please email us hello@gifme.io and we can set you up with a specific key.
+
 <b>API KEY</b>: `rX7kbMzkGu7WJwvG`
 
 ## Search
