@@ -19,10 +19,10 @@ The search API is powered by the same engine and alogrithm that powers the GifMe
 <b>Endpoint</b>: `http://api.gifme.io/v1/search`
 <b>Arguments</b>
 <ul>
-	<li><b>query</b> - The term you are searching for ( required )</li>
-	<li><b>limit</b> - The number of results to serve up. Defaults to 42</li>
+	<li><b>query</b> - The term you are searching for </li>
+	<li><b>limit</b> - The number of results to serve up. Max 42</li>
 	<li><b>page</b> - The page of results you want.</li>
-	<li><b>key</b> - Your API key ( REQUIRED )</li>
+	<li><b>key</b> - Your API key</li>
 </ul>
 
 Upon hitting the API you will get a response that looks similar to this:
