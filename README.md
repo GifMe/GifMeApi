@@ -22,9 +22,6 @@ There are a number of powered by tags that you can use.
 <img src='http://gifme.io/powered_by_white.png' /><br/>
 `http://gifme.io/powered_by_white.png`
 
-<img src='http://gifme.io/powered_by_black.png' /><br/>
-`http://gifme.io/powered_by_black.png`
-
 <img src='http://gifme.io/powered_by_black_out.png' /><br/>
 `http://gifme.io/powered_by_black_out.png`
 
