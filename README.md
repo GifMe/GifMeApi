@@ -1,6 +1,8 @@
 GifMeApi
 ========
 
+<img src='https://gifme.io/powered_by.png' />
+
 GifMe is an app that makes saving, sharing and organizing gifs easier. It is also home to one of the largest gif search engines. GifMe has an API that allows 3rd party developers to use the data and tap into the gifs and images collected by GifMe users.
 
 ## Basics
@@ -10,6 +12,8 @@ The API is a read only api. You can query a number of endpoints and get data fro
 For the time being you are free to use the following key. Please note that any abuse of this key will result in a change of policy. We are working to setup a dev center where you can register to get a key for your app.
 
 If you plan to use the API in a production application please email us hello@gifme.io and we can set you up with a specific key.
+
+if you want to include the powered by logo you can find that here https://gifme.io/powered_by.png
 
 <b>API KEY</b>: `rX7kbMzkGu7WJwvG`
 
