@@ -13,6 +13,8 @@ For the time being you are free to use the following key. Please note that any a
 
 If you plan to use the API in a production application please email us hello@gifme.io and we can set you up with a specific key.
 
+<b>API KEY</b>: `rX7kbMzkGu7WJwvG`
+
 ## POWERED BY TAGS
 There are a number of powered by tags that you can use.
 
@@ -24,8 +26,6 @@ There are a number of powered by tags that you can use.
 
 <img src='http://gifme.io/powered_by_black_out.png' /><br/>
 `http://gifme.io/powered_by_black_out.png`
-
-<b>API KEY</b>: `rX7kbMzkGu7WJwvG`
 
 ## Search
 The search API is powered by the same engine and alogrithm that powers the GifMe search engine. It accepts a query and will first find all tags that contain the query, then run an algorithm that scores the tags agains the query and produces a 'score'. The lower the score the more relavent the tag is to the query.
