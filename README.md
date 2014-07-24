@@ -1,7 +1,7 @@
 GifMeApi
 ========
 
-<img src='https://gifme.io/powered_by.png' />
+<img src='http://gifme.io/powered_by.png' />
 
 GifMe is an app that makes saving, sharing and organizing gifs easier. It is also home to one of the largest gif search engines. GifMe has an API that allows 3rd party developers to use the data and tap into the gifs and images collected by GifMe users.
 
@@ -16,20 +16,20 @@ If you plan to use the API in a production application please email us hello@gif
 ## POWERED BY TAGS
 There are a number of powered by tags that you can use.
 
-<img src='https://gifme.io/powered_by.png' /><br/>
-`https://gifme.io/powered_by.png`
+<img src='http://gifme.io/powered_by.png' /><br/>
+`http://gifme.io/powered_by.png`
 
-<img src='https://gifme.io/powered_by_white.png' /><br/>
-`https://gifme.io/powered_by_white.png`
+<img src='http://gifme.io/powered_by_white.png' /><br/>
+`http://gifme.io/powered_by_white.png`
 
-<img src='https://gifme.io/powered_by_white_out.png' /><br/>
-`https://gifme.io/powered_by_white_out.png`
+<img src='http://gifme.io/powered_by_white_out.png' /><br/>
+`http://gifme.io/powered_by_white_out.png`
 
-<img src='https://gifme.io/powered_by_black.png' /><br/>
-`https://gifme.io/powered_by_black.png`
+<img src='http://gifme.io/powered_by_black.png' /><br/>
+`http://gifme.io/powered_by_black.png`
 
-<img src='https://gifme.io/powered_by_black_out.png' /><br/>
-`https://gifme.io/powered_by_black_out.png`
+<img src='http://gifme.io/powered_by_black_out.png' /><br/>
+`http://gifme.io/powered_by_black_out.png`
 
 <b>API KEY</b>: `rX7kbMzkGu7WJwvG`
 
