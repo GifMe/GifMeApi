@@ -13,7 +13,23 @@ For the time being you are free to use the following key. Please note that any a
 
 If you plan to use the API in a production application please email us hello@gifme.io and we can set you up with a specific key.
 
-if you want to include the powered by logo you can find that here https://gifme.io/powered_by.png
+## POWERED BY TAGS
+There are a number of powered by tags that you can use.
+
+<img src='https://gifme.io/powered_by.png' /><br/>
+`https://gifme.io/powered_by.png`
+
+<img src='https://gifme.io/powered_by_white.png' /><br/>
+`https://gifme.io/powered_by_white.png`
+
+<img src='https://gifme.io/powered_by_white_out.png' /><br/>
+`https://gifme.io/powered_by_white_out.png`
+
+<img src='https://gifme.io/powered_by_black.png' /><br/>
+`https://gifme.io/powered_by_black.png`
+
+<img src='https://gifme.io/powered_by_black_out.png' /><br/>
+`https://gifme.io/powered_by_black_out.png`
 
 <b>API KEY</b>: `rX7kbMzkGu7WJwvG`
 
