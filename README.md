@@ -173,4 +173,31 @@ Similar to the search return. Note that the tags are returned as a string and no
 	</li>
 </ul>
 
-There are more enpoints on the way and we will be publishing them here as well as more documentation on the site.
+
+## Gif Detail
+
+You can query for a specific Gif's details. For this you will need to provide the Gif ID as a part of the URL.
+
+<b>Endpoint</b>: `http://api.gifme.io/v1/gif/:ID?key=rX7kbMzkGu7WJwvG`
+
+The results of this query will look something like this:
+
+<pre>
+{
+	status: 200,
+	meta: {
+		timing: "0.020ms"
+	},
+	gif: {
+		id: 470809,
+		link: "http://24.media.tumblr.com/e3487212d3cf1740d495c136fce94c63/tumblr_mksz40N8FC1qfrkf9o3_250.gif",
+		thumb: "http://i.gifme.io/gifme/thumb__5eff9a84cc.gif",
+		nsfw: false,
+		created_at: "2014-07-15T14:49:11.118Z",
+		tags: [
+			"neat",
+			"archer"
+		]
+	}
+}
+</pre>
