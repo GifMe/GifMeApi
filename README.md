@@ -201,3 +201,40 @@ The results of this query will look something like this:
 	}
 }
 </pre>
+
+## Trending Searches
+
+Trending searches are the top rated searches that happen within a 24 hour period. It returns the top 50 searches.
+
+<b>Endpoint</b>: `http://api.gifme.io/v1/trending?key=rX7kbMzkGu7WJwvG`
+
+The results will look something like this.
+
+<pre>
+{
+	status: 200,
+	trending: [
+		{
+			id: 1585,
+			link: "https://gifme.io/search/q?query=gtfo",
+			term: "gtfo",
+			queries: 831,
+			results: 224
+		},
+		{
+			id: 241,
+			link: "https://gifme.io/search/q?query=money",
+			term: "money",
+			queries: 819,
+			results: 303
+		},
+		{
+			id: 348,
+			link: "https://gifme.io/search/q?query=smile",
+			term: "smile",
+			queries: 740,
+			results: 752
+		}
+	]
+}
+</pre>
