@@ -133,6 +133,7 @@ The results of this query will look something like this:
 			created_at: "2014-07-20T03:54:10.844Z",
 			thumb: "http://i.gifme.io/gifme/thumb__6b3c891d38.gif",
 			link: "http://i.imgur.com/fB19z.gif",
+			origin: 'http://i.imgur.com/fB19z.gif',
 			nsfw: false,
 			tags: [
 				"over your head"
@@ -143,6 +144,7 @@ The results of this query will look something like this:
 			created_at: "2014-07-20T03:53:48.245Z",
 			thumb: "http://i.gifme.io/gifme/thumb__1c019b1953.gif",
 			link: "https://31.media.tumblr.com/7ac1def41e60d8c1c75c9a1638a1a4ec/tumblr_n8vnk0tD4V1s95j2so5_250.gif",
+			origin: "https://31.media.tumblr.com/7ac1def41e60d8c1c75c9a1638a1a4ec/tumblr_n8vnk0tD4V1s95j2so5_250.gif",
 			nsfw: false,
 			tags: [
 				"but we arnt men"
@@ -165,7 +167,8 @@ Similar to the search return. Note that the tags are returned as a string and no
 		<ul>
 			<li><b>id</b>: Gif ID</li>
 			<li><b>nsfw</b>: If the result is NSFW</li>
-			<li><b>link</b>: The original source</li>
+			<li><b>link</b>: The link to the gif / some are hosted at http://gifs.gime.io</li>
+			<li><b>origin</b>: The original source</li>
 			<li><b>thumb</b>: The static thumbnail</li>
 			<li><b>created_at</b>: Creation date</li>
 			<li><b>Tags</b>: The other tags associated with this Gif</li>
@@ -190,7 +193,8 @@ The results of this query will look something like this:
 	},
 	gif: {
 		id: 470809,
-		link: "http://24.media.tumblr.com/e3487212d3cf1740d495c136fce94c63/tumblr_mksz40N8FC1qfrkf9o3_250.gif",
+		link: "http://24.media.tumblr.,com/e3487212d3cf1740d495c136fce94c63/tumblr_mksz40N8FC1qfrkf9o3_250.gif",
+		origin: 'http://24.media.tumblr.,com/e3487212d3cf1740d495c136fce94c63/tumblr_mksz40N8FC1qfrkf9o3_250.gif'
 		thumb: "http://i.gifme.io/gifme/thumb__5eff9a84cc.gif",
 		nsfw: false,
 		created_at: "2014-07-15T14:49:11.118Z",
@@ -236,5 +240,31 @@ The results will look something like this.
 			results: 752
 		}
 	]
+}
+</pre>
+
+
+## RANDOM
+
+Will return 1 random image based on a tag, or if no tag is supplied it will just return a random Gif. 
+
+<b>NOTE:</b> All results returned from this endpoint are SFW.
+
+<b>Endpoint</b>: `http://api.gifme.io/v1/gifs/random?term=happy&key=rX7kbMzkGu7WJwvG`
+
+The results will look something like this.
+
+<pre>
+{
+	status: 200,
+	meta: {
+		term: "happy",
+		timing: "0.030ms"
+	},
+	gif: {
+		id: 72437,
+		gif: "http://media.tumblr.com/691e21f0ea8bfdaef1dc02aba8d0aced/tumblr_inline_msb3m0Xeu91qz4rgp.gif",
+		thumb: "http://i.gifme.io/gifme/thumb__054a29890b4ccb9d3a2d.gif"
+	}
 }
 </pre>
