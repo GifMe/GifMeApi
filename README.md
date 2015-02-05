@@ -18,6 +18,9 @@ If you plan to use the API in a production application please email us hello@gif
 ## POWERED BY TAGS
 There are a number of powered by tags that you can use.
 
+<img src='http://gifme.io/powered_by_pink.png' width='130px'/><br/>
+`http://gifme.io/powered_by_pink.png`
+
 <img src='http://gifme.io/powered_by.png' width='130px'/><br/>
 `http://gifme.io/powered_by.png`
 
